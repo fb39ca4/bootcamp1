@@ -37,6 +37,14 @@ Methods:
 
 Incorporate CompositeShape in the main function.
 
+### Step 5
+
+Commit and push your work back to Github.
+
+    git add src/main/java/*
+    git commit -m "Your commit message here"
+    git push
+
 ### Further Questions
 
 Create two Triangles with the same coordinates. According to Java, are they equal to one another?
