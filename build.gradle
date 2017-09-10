@@ -9,6 +9,9 @@
 // Apply the java-library plugin to add support for Java Library
 apply plugin: 'java-library'
 
+// Apply the application plugin to add support for building an application
+apply plugin: 'application'
+
 // In this section you declare where to find the dependencies of your project
 repositories {
     // Use jcenter for resolving your dependencies.
@@ -27,3 +30,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+mainClassName = 'BootcampApplication'
